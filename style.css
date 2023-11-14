@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@600&family=Lilita+One&family=Pacifico&family=Source+Code+Pro:wght@400;700&family=Young+Serif&display=swap');
+
+*{
+    font-weight: 900;
+   
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:bisque;
+}
+.main{
+    width: 260px;
+    height: 400px;
+    /* border: 2px solid black; */
+    margin-top: 100px;
+    background-color: rgb(35, 33, 33);
+    border-radius: 10px;
+}
+.screen{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px ;
+    border-bottom: 2px groove rgb(255, 255, 255);
+    height: 100px;
+}
+#text{
+    width: 90%;
+    height: 50%;
+    background-color:rgb(239, 239, 165);
+    font-size: 40px;
+    direction:rtl;
+    font-family: 'Big Shoulders Stencil Display', sans-serif;
+}
+.buttons{
+    width: 100%;
+      
+}
+.buttons button{
+    /* margin: 0px 3px; */
+    margin: 5px 5px;
+}
+.numbers{
+  /* padding: 5px; */
+  padding:7px;
+  margin-top: 10px;
+  margin-left: 2px;
+
+}
+
+button{
+   
+    width: 47px;
+    height: 40px;
+   background: #2f2f2f;
+   border: none;
+   font-size: 14px;
+   border-radius: 4px;
+   color: #c4c4c4;
+   box-shadow: 1px 1px 5px #000, -1px -1px 5px #6f6f6f, inset 1px 1px 5px #2b2b2b, inset -1px -1px 5px #424242;
+   transition: all 0.1s;
+}
+button:active {
+    box-shadow: 1px 1px 5px #5b5b5b, -1px -1px 5px #000, inset 1px 1px 5px #5b5b5b, inset -1px -1px 5px #000;
+}
+.bottom{
+    /* width: 45%; */
+    width:110px;
+    background-color: white;
+    box-shadow: none;
+    color: black;
+}
+#bottom{
+    margin-top: 10px;   
+}
+#c{
+    background-color: red;
+    box-shadow: white;
+}
+.operator{
+   border: 1px groove rgb(132, 37, 37);
+}
+#icon{
+    color: red;
+}
